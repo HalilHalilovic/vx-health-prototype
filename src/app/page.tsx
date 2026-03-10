@@ -551,20 +551,12 @@ export default function Home() {
           <aside className="rounded-xl bg-white p-4 shadow-sm ring-1 ring-slate-200">
             <div className="flex items-center justify-between">
               <h2 className="text-base font-semibold">Clients</h2>
-              <div className="flex gap-2">
-                <button
-                  onClick={() => setShowAddClient((v) => !v)}
-                  className="rounded-md border border-slate-300 px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100"
-                >
-                  + Add
-                </button>
-                <button
-                  onClick={() => void loadClients()}
-                  className="rounded-md border border-slate-300 px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100"
-                >
-                  Refresh
-                </button>
-              </div>
+              <button
+                onClick={() => setShowAddClient((v) => !v)}
+                className="rounded-md border border-slate-300 px-2 py-1 text-xs font-medium text-slate-700 hover:bg-slate-100"
+              >
+                + Add
+              </button>
             </div>
 
             {showAddClient && (
