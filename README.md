@@ -56,10 +56,6 @@ Notes:
 - Seed data reflects representative client patterns from the sample spreadsheet
 
 ## Intentionally Left Out
-
-- Multi-user sync and real-time collaboration
-- Role-based access control
-- Production-grade secrets management and audit logging
 - Notification workflows (Slack/email)
 - Data import UI for spreadsheet uploads
 
